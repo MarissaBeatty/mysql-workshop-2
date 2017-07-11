@@ -36,3 +36,4 @@ Rows matched: 1  Changed: 1  Warnings: 0
 mysql> UPDATE Entry SET firstName = 'Z' WHERE firstName = 'Zoe';
 Query OK, 3 rows affected (0.01 sec)
 Rows matched: 3  Changed: 3  Warnings: 0
+
