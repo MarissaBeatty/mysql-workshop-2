@@ -23,3 +23,16 @@ mysql> SELECT birthday FROM Entry GROUP BY lastName;
 | 1955-01-26 17:54:47 |
 +---------------------+
 3 rows in set (0.01 sec)
+
+--went back and re-did this correctly:
+mysql> UPDATE Account SET email = 'help@help.com' WHERE email = 'ipsum.Donec@tellus.ca';
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE AddressBook SET name = 'Donec Inc.' WHERE name = 'Donec Incorporated';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE Entry SET firstName = 'Z' WHERE firstName = 'Zoe';
+Query OK, 3 rows affected (0.01 sec)
+Rows matched: 3  Changed: 3  Warnings: 0
