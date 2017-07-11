@@ -1,0 +1,25 @@
+mysql> SELECT email FROM Account GROUP BY email;                                                                              
++---------------------------------+
+| email                           |
++---------------------------------+
+| Donec.vitae@Phasellusornare.org |
++---------------------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT name FROM AddressBook GROUP BY name;
++-------------------------+
+| name                    |
++-------------------------+
+| Non Lobortis Quis Corp. |
++-------------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT birthday FROM Entry GROUP BY lastName;
++---------------------+
+| birthday            |
++---------------------+
+| 1962-04-07 20:22:24 |
+| 1973-04-16 13:58:42 |
+| 1955-01-26 17:54:47 |
++---------------------+
+3 rows in set (0.01 sec)
